@@ -90,7 +90,7 @@ nav a:hover .hidden-nav {
   align-items: flex-end;
   justify-content: center;
   flex-direction: column;
-  background-image: url(../../assets/images/iupui-landing_desktop.webp);
+  background-image: url(../assets/images/iupui-landing_desktop.webp);
 }
 .home-hero * {
   color: #900;
@@ -137,7 +137,9 @@ nav a:hover .hidden-nav {
 .home-values .values-row .values-content button {
   padding: 10px 20px;
   color: #FFF;
+  font-weight: bold;
   border: none;
+  border-radius: 20px;
   background-color: #900;
 }
 .home-values .values-row .values-content button:hover {
@@ -150,7 +152,7 @@ nav a:hover .hidden-nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../../assets/images/city.jpg);
+  background-image: url(../assets/images/city.jpg);
 }
 .campuses-map h1 {
   font-size: 56px;
@@ -243,7 +245,7 @@ nav a:hover .hidden-nav {
 .apply-image {
   width: 100%;
   height: 40vh;
-  background-image: url(../../assets/images/apply.jpg);
+  background-image: url(../assets/images/apply.jpg);
 }
 
 .apply-desc {
@@ -280,10 +282,10 @@ nav a:hover .hidden-nav {
   margin-bottom: 40px;
 }
 .apply-forms .form-link .freshmanapply-image {
-  background-image: url(../../assets/images/freshman-apply.jpg);
+  background-image: url(../assets/images/freshman-apply.jpg);
 }
 .apply-forms .form-link .adultapply-image {
-  background-image: url(../../assets/images/adult-apply.jpg);
+  background-image: url(../assets/images/adult-apply.jpg);
 }
 .apply-forms .form-link span {
   color: #BBB;
