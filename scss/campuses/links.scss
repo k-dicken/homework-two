@@ -1,0 +1,23 @@
+.campuses-links {
+    height: 25vh;
+    width: 100%;
+
+    padding: 0 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    background-color: $accent;
+
+    * {
+        color: white;
+        text-decoration: none;
+        margin: 0;
+    }
+
+    a:hover {
+        color: $light-grey;
+    }
+}

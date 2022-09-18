@@ -1,0 +1,56 @@
+.apply-forms {
+    width: 100%;
+
+    padding: 2% 10% 8% 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .form-link {
+        width: 46%;
+        min-height: 400px;
+
+        .image {
+            width: 100%;
+            height: 300px;
+            margin-bottom: 40px;
+        }
+
+        .freshmanapply-image {
+            background-image: url(../../assets/images/freshman-apply.jpg);
+        }
+
+        .adultapply-image {
+            background-image: url(../../assets/images/adult-apply.jpg);
+        }
+
+        span {
+            color: $light-grey;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        p {
+            margin: 20px 0 40px 0;
+        }
+
+        a {
+            padding: 10px 20px;
+
+            border: 4px $accent solid;
+            border-radius: 20px;
+
+            margin: 0 auto;
+
+            background-color: $accent;
+            color: $white;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: transparent;
+            color: $accent;
+        }
+    }
+}

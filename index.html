@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav>
+      <img src="assets/images/logo.png" alt="" class="logo">
+
+      <!-- home -->
+      <a id="home" href="#">
+        <svg viewBox="0 0 20 20">
+          <path d="M18.121,9.88l-7.832-7.836c-0.155-0.158-0.428-0.155-0.584,0L1.842,9.913c-0.262,0.263-0.073,0.705,0.292,0.705h2.069v7.042c0,0.227,0.187,0.414,0.414,0.414h3.725c0.228,0,0.414-0.188,0.414-0.414v-3.313h2.483v3.313c0,0.227,0.187,0.414,0.413,0.414h3.726c0.229,0,0.414-0.188,0.414-0.414v-7.042h2.068h0.004C18.331,10.617,18.389,10.146,18.121,9.88 M14.963,17.245h-2.896v-3.313c0-0.229-0.186-0.415-0.414-0.415H8.342c-0.228,0-0.414,0.187-0.414,0.415v3.313H5.032v-6.628h9.931V17.245z M3.133,9.79l6.864-6.868l6.867,6.868H3.133z"></path>
+        </svg>
+        <p class="hidden-nav">HOME</p>
+      </a>
+
+      <p>-</p>
+
+      <!-- campuses -->
+      <a id="campuses" href="#">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path d="M18.092,5.137l-3.977-1.466h-0.006c0.084,0.042-0.123-0.08-0.283,0H13.82L10,5.079L6.178,3.671H6.172c0.076,0.038-0.114-0.076-0.285,0H5.884L1.908,5.137c-0.151,0.062-0.25,0.207-0.25,0.369v10.451c0,0.691,0.879,0.244,0.545,0.369l3.829-1.406l3.821,1.406c0.186,0.062,0.385-0.029,0.294,0l3.822-1.406l3.83,1.406c0.26,0.1,0.543-0.08,0.543-0.369V5.506C18.342,5.344,18.242,5.199,18.092,5.137 M5.633,14.221l-3.181,1.15V5.776l3.181-1.15V14.221z M9.602,15.371l-3.173-1.15V4.626l3.173,1.15V15.371z M13.57,14.221l-3.173,1.15V5.776l3.173-1.15V14.221z M17.547,15.371l-3.182-1.15V4.626l3.182,1.15V15.371z"></path>
+        </svg>
+        <p class="hidden-nav">CAMPUS</p>
+      </a>
+
+      <p>-</p>
+
+      <!-- degrees -->
+      <a id="degrees" href="#">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path d="M14.467,1.771H5.533c-0.258,0-0.47,0.211-0.47,0.47v15.516c0,0.414,0.504,0.634,0.802,0.331L10,13.955l4.136,4.133c0.241,0.241,0.802,0.169,0.802-0.331V2.241C14.938,1.982,14.726,1.771,14.467,1.771 M13.997,16.621l-3.665-3.662c-0.186-0.186-0.479-0.186-0.664,0l-3.666,3.662V2.711h7.994V16.621z"></path>
+        </svg>
+        <p class="hidden-nav">DEGREES</p>
+      </a>
+
+      <p>-</p>
+
+      <!-- apply -->
+      <a id="apply" href="#">
+        <svg class="svg-icon" viewBox="0 0 20 20">
+          <path d="M18.303,4.742l-1.454-1.455c-0.171-0.171-0.475-0.171-0.646,0l-3.061,3.064H2.019c-0.251,0-0.457,0.205-0.457,0.456v9.578c0,0.251,0.206,0.456,0.457,0.456h13.683c0.252,0,0.457-0.205,0.457-0.456V7.533l2.144-2.146C18.481,5.208,18.483,4.917,18.303,4.742 M15.258,15.929H2.476V7.263h9.754L9.695,9.792c-0.057,0.057-0.101,0.13-0.119,0.212L9.18,11.36h-3.98c-0.251,0-0.457,0.205-0.457,0.456c0,0.253,0.205,0.456,0.457,0.456h4.336c0.023,0,0.899,0.02,1.498-0.127c0.312-0.077,0.55-0.137,0.55-0.137c0.08-0.018,0.155-0.059,0.212-0.118l3.463-3.443V15.929z M11.241,11.156l-1.078,0.267l0.267-1.076l6.097-6.091l0.808,0.808L11.241,11.156z"></path>
+        </svg>
+        <p class="hidden-nav">APPLY</p>
+      </a>
+
+    </nav>
+
+    <div id="app">
+
+      <!-- home -->
+      <div id="homeContent" class="page">
+        <div class="home-hero image">
+          <h2>IU PROVIDES A WORLD CLASS</h2>
+          <h1>EDUCATION</h1>
+        </div>  
+        <div class="home-values">
+          <h1>Our Values</h1>
+          <br>
+          <div class="values-row">
+            <div class="values-links">
+              <a id="diverityEquityInclusion" href="#">DIVERSITY, EQUITY & INCLUSION</a>
+              <a id="studentSuccess" href="#">STUDENT SUCCESS</a>
+              <a id="educationalExcellence" href="#">EDUCATIONAL EXCELLENCE</a>
+              <a id="communityEngagment" href="#">COMMUNITY ENGAGEMENT</a>
+              <a id="safety" href="#">SAFETY</a>
+            </div>
+            <div class="values-content">
+              <h2>DIVERSITY, EQUITY & INCLUSION</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem qui vitae corrupti, vero, explicabo ullam at sit excepturi doloribus adipisci odio velit cum sapiente, harum illum quis facilis non.</p>
+              <button>Our Strategic Plan</button>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <!-- campus -->
+      <!-- <div id="campusesContent" class="page">
+        <div class="campuses-map image">
+          <h1>OUR CAMPUSES</h1>
+        </div>
+        <div class="campuses-links">
+          <a href="">IU Bloomington</a>
+          <p>|</p>
+          <a href="">IU Kokomo</a>
+          <p>|</p>
+          <a href="">IU Fort Wayne</a>  
+          <p>|</p>
+          <a href="">IU South Bend</a>
+          <p>|</p>
+          <a href="">IUPUI</a>  
+          <p>|</p>
+          <a href="">IUPUC</a>
+        </div>
+        <div class="campuses-more">
+          <h1>Learn More About Our Cities</h1>
+          <div class="campuses-buttons">
+            <a href="#">Internship & Career Opportuities</a>
+            <a href="#">Fun Things to Do</a>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- degrees -->
+      <!-- <div id="degreesContent" class="page">
+        <div class="degrees-desc">
+          <h1>Explore degrees and majors</h1>
+          <h2>Choose the program that's right for you</h2>
+          <p>We believe in giving students the power of choice by offering a wide variety of world-class IU and Purdue programs. IUPUI has more than 550 undergraduate, graduate, and professional programs for you to choose from, with classes offered on campus, online, or both.
+          <br>
+          Explore nationally-ranked health sciences programs, take classes from the world’s first school of philanthropy, and find unique programs only offered at IUPUI, such as the United States’s only motorsports engineering degree.</p>
+        </div>
+        <div class="degrees-links">
+          <h2>Discover the degree for you</h2>
+          <br>
+          <div class="link">
+            <a href="#">
+              <span>CRT</span>
+              Academic Advising—Online</a>
+              <p>School of Education</p>
+          </div>
+          <div class="link">
+            <a href="#">
+              <span>B.S.B.</span>
+              Accounting</a>
+            <p>Kelley School of Business</p>
+          </div>
+          <div class="link">
+            <a href="#">
+              <span>CRT</span>
+              Accounting</a>
+            <p>Kelley School of Business</p>
+          </div>
+          <div class="link">
+            <a href="#">
+              <span>M.B.A</span>
+              Accounting</a>
+            <p>Kelley School of Business</p>
+          </div>
+          <div class="link">
+            <a href="#">
+              <span>M.S.A</span>
+              Accounting</a>
+            <p>Kelley School of Business</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>M.S.A.</span>Accounting/Business Administration</a>
+            <p>Kelley School of Business</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>Ph.D</span>Addiction Neuroscience</a>
+            <p>School of Nursing</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>M.S.N.</span>Adult-Gerontology Acute Care Nurse Practitioner</a>
+            <p>School of Nursing</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>P.M.C.</span>Adult-Gerontology Acute Care Nurse Practitioner</a>
+            <p>School of Nursing</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>M.S.N.</span>Adult-Gerontology Clinical Nurse Specialist</a>
+            <p>School of Nursing</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>P.M.C.</span>Adult-Gerontology Clinical Nurse Specialist</a>
+            <p>School of Nursing</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>M.S.N.</span>Adult-Gerontology Primary Care Nurse Practitioner</a>
+            <p>School of Nursing</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>P.M.C.</span>Adult-Gerontology Primary Care Nurse Practitioner</a>
+            <p>School of Nursing</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>CRT</span>Advocacy Skills</a>
+            <p>Robert H. McKinney School of Law</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>CRT</span>African Studies</a>
+            <p>School of Liberal Arts</p>
+          </div>
+          <div class="link">
+            <a href="#"><span>B.A.</span>Africana Studies</a>
+            <p>School of Liberal Arts</p>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- apply -->
+      <!-- <div id="applyContent" class="page">
+        <div class="apply-image image"></div>
+
+        <div class="apply-desc">
+          <h2>Apply for admission to IUPUI</h2>
+          <p>You’ve decided that IUPUI is the right school for you, and you’re ready to apply. To get started, read the descriptions of the types of applicants on this page and determine which category you fit into. Then visit the page for your applicant type to learn about admission standards, the application process, deadlines, and other important information.</p>
+        </div>
+
+        <div class="apply-forms">
+          <div class="form-link">
+            <div class="freshmanapply-image image"></div>
+            <h2>Freshman Applicant</h2>
+            <span>JOIN THE CLASS OF 2027</span>
+            <p>Learn how to apply for admission to IUPUI if you are currently a high school student, or have graduated from high school and have not enrolled in a degree-seeking program at a college or university.</p>
+            <a href="#">Learn how to apply for freshman admission</a>
+          </div>
+        <div div class="form-link">
+            <div class="adultapply-image image"></div>
+            <h2>Transfer & Adult Applicant</h2>
+            <span>MAKE THE MOVE TO IU</span>
+            <p>Learn how to apply if you've previously enrolled in a college degree program (including programs at another IU campus), are an adult learner looking to start something new, or just want to take a class as a non-degree student.</p>
+            <a href="#">Learn how to apply as a transfer or adult student</a>
+        </div>
+        </div>
+      </div> -->
+
+    </div>
+
+
+    <footer>
+      <img src="assets/images/logo.png" alt="" class="logo">
+
+      <p>
+        317-274-5555
+        <br><br>
+        420 University Blvd.<br>
+        Indianapolis, IN 46202
+      </p>
+
+      <a href="https://www.iupui.edu/">www.iupui.edu</a>
+
+      <br>
+
+      <p>IUPUI Copyright &copy; 2022</p>
+    </footer>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+</body>
+</html>

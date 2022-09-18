@@ -1,0 +1,50 @@
+//basic reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+//fonts
+h1, h2, h3, h4, h5, h6, button {
+    font-family: $head-font;
+}
+
+p, a, span {
+    font-family: $head-font;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+//general classes
+#app {
+    padding-left: 80px;
+}
+
+// .page {
+//     padding: 80px 100px;
+// }
+
+.margin-reset {
+    margin: 0;
+}
+
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: $light-grey;
+}
+
+.logo {
+    width: 60px;
+}

@@ -1,0 +1,59 @@
+nav {
+    height: 100%;
+    width: 80px;
+
+    padding: 60px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: fixed;
+
+    box-shadow: 1px 1px rgb(0,0,0,.1);
+    background-color: $accent;
+
+    .logo {
+        position: absolute;
+        top: 10px;
+    }
+
+    p {
+        color: $white;  
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        text-decoration: none;
+        margin-bottom: 40px;
+
+        svg {
+            width: 40px;
+            height: 40px;
+
+            margin: 40px 0 10px 0;
+
+            fill: $white;
+        }
+        
+        .hidden-nav {
+            margin-bottom: 0;
+            display: none;
+        }
+
+    }
+
+    a:hover {
+
+        .hidden-nav {
+            display: block;
+        }
+    }
+
+    
+}

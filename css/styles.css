@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: Andale Mono, monospace;
+}
+
+p, a, span {
+  font-family: Andale Mono, monospace;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+#app {
+  padding-left: 80px;
+}
+
+.margin-reset {
+  margin: 0;
+}
+
+.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #BBB;
+}
+
+.logo {
+  width: 60px;
+}
+
+nav {
+  height: 100%;
+  width: 80px;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #900;
+}
+nav .logo {
+  position: absolute;
+  top: 10px;
+}
+nav p {
+  color: #FFF;
+}
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+nav a svg {
+  width: 40px;
+  height: 40px;
+  margin: 40px 0 10px 0;
+  fill: #FFF;
+}
+nav a .hidden-nav {
+  margin-bottom: 0;
+  display: none;
+}
+nav a:hover .hidden-nav {
+  display: block;
+}
+
+.home-hero {
+  width: 100%;
+  height: 80vh;
+  padding: 10% 5%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../../assets/images/iupui-landing_desktop.webp);
+}
+.home-hero * {
+  color: #900;
+  text-shadow: 2px 2px #000;
+}
+.home-hero h2 {
+  font-size: 48px;
+}
+.home-hero h1 {
+  font-size: 56px;
+}
+
+.home-values {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home-values .values-row {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-values .values-row .values-links {
+  min-width: 300px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.home-values .values-row .values-links a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.home-values .values-row .values-links a:hover {
+  color: #900;
+}
+.home-values .values-row .values-content p {
+  margin: 40px 0;
+}
+.home-values .values-row .values-content button {
+  padding: 10px 20px;
+  color: #FFF;
+  border: none;
+  background-color: #900;
+}
+.home-values .values-row .values-content button:hover {
+  background-color: #444;
+}
+
+.campuses-map {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../assets/images/city.jpg);
+}
+.campuses-map h1 {
+  font-size: 56px;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.campuses-links {
+  height: 25vh;
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #900;
+}
+.campuses-links * {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+.campuses-links a:hover {
+  color: #BBB;
+}
+
+.campuses-more {
+  height: 35vh;
+  width: 100%;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.campuses-more .campuses-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.campuses-more .campuses-buttons a {
+  margin: 20px;
+  padding: 10px 20px;
+  border: solid #900 4px;
+  border-radius: 20px;
+  color: #900;
+  font-weight: bold;
+  text-decoration: none;
+}
+.campuses-more .campuses-buttons a:hover {
+  color: #444;
+  border: solid #444 4px;
+}
+
+.degrees-desc {
+  width: 100%;
+  padding: 3% 10%;
+}
+.degrees-desc h1 {
+  font-size: 56px;
+}
+
+.degrees-links {
+  width: 100%;
+  padding: 2% 10% 8% 10%;
+}
+.degrees-links div:nth-child(odd) {
+  background-color: #DDD;
+}
+.degrees-links .link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.degrees-links .link span {
+  font-weight: bold;
+  color: #000;
+  margin-right: 8px;
+}
+.degrees-links .link a {
+  text-decoration: none;
+  color: #900;
+}
+.degrees-links .link p {
+  margin-bottom: 0;
+}
+
+.apply-image {
+  width: 100%;
+  height: 40vh;
+  background-image: url(../../assets/images/apply.jpg);
+}
+
+.apply-desc {
+  height: 40vh;
+  width: 100%;
+  padding: 4% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.apply-desc * {
+  width: 100%;
+}
+.apply-desc h2 {
+  margin-bottom: 40px;
+  font-size: 48px;
+}
+
+.apply-forms {
+  width: 100%;
+  padding: 2% 10% 8% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.apply-forms .form-link {
+  width: 46%;
+  min-height: 400px;
+}
+.apply-forms .form-link .image {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 40px;
+}
+.apply-forms .form-link .freshmanapply-image {
+  background-image: url(../../assets/images/freshman-apply.jpg);
+}
+.apply-forms .form-link .adultapply-image {
+  background-image: url(../../assets/images/adult-apply.jpg);
+}
+.apply-forms .form-link span {
+  color: #BBB;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.apply-forms .form-link p {
+  margin: 20px 0 40px 0;
+}
+.apply-forms .form-link a {
+  padding: 10px 20px;
+  border: 4px #900 solid;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: #900;
+  color: #FFF;
+  font-weight: bold;
+}
+.apply-forms .form-link a:hover {
+  background-color: transparent;
+  color: #900;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  background-color: #000;
+}
+footer .logo {
+  margin: 10px 0 20px 0;
+}
+footer a {
+  color: #900;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
